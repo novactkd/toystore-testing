@@ -4,7 +4,7 @@ FROM nginx:alpine
 WORKDIR /usr/share/nginx/html
 
 # Copy website files to the Nginx HTML directory
-COPY index6.html /usr/share/nginx/html/index.html
+COPY index.html /usr/share/nginx/html/index.html
 COPY toy1.png /usr/share/nginx/html/
 COPY toy2.png /usr/share/nginx/html/
 COPY toy3.png /usr/share/nginx/html/
